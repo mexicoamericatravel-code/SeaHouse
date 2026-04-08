@@ -14,7 +14,6 @@ import {
   Clock3,
   BedDouble,
   Calendar,
-  PalmTree,
 } from "lucide-react";
 
 export const siteData = {
@@ -141,7 +140,7 @@ export const siteData = {
   ],
   subPages: [
     { title: "Rooms", copy: "A dedicated page for room details, photos, and rates.", cta: "View page", href: "#rooms", icon: BedDouble },
-    { title: "Experiences", copy: "Showcase beach days, island trips, cenotes, and curated add-ons.", cta: "Explore", href: "#attractions", icon: PalmTree },
+    { title: "Experiences", copy: "Showcase beach days, island trips, cenotes, and curated add-ons.", cta: "Explore", href: "#attractions", icon: Sun },
     { title: "Availability", copy: "A future page for calendar-based availability and direct booking requests.", cta: "See availability", href: "#booking", icon: Calendar },
   ],
   gallery: [
