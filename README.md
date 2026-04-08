@@ -1,33 +1,50 @@
-# Casa Brisa del Mar
+# SeaHouse / Casa Brisa del Mar
 
-Starter repo for a direct-booking room rental site near Cancun.
+Upgraded Vite + React + Tailwind site for a direct-booking room rental property near Cancun.
+
+## What's added
+- crisper single-page layout
+- multi-language UI
+- multi-currency display
+- room cards with translated descriptions
+- attractions
+- trip-type sections
+- neighborhood section
+- seasonal pricing section
+- simple availability preview
+- testimonials
+- add-ons / upsells
+- sticky WhatsApp button
+- map embed
+- Netlify-ready contact form
 
 ## Run locally
-
 ```bash
 npm install
 npm run dev
 ```
 
 ## Build
-
 ```bash
 npm run build
 ```
 
-## Deploy on Netlify
-
+## Netlify settings
 - Build command: `npm run build`
 - Publish directory: `dist`
 
-## Edit later
+## Main edit file
+Most content is in:
+- `src/siteData.js`
 
-Open `src/App.jsx` and replace:
-- room names
-- prices
-- photos
+## Quick edits
+Update:
 - WhatsApp number
 - email
+- room names
+- room prices
+- room photos
+- real attractions
 - testimonials
-- attractions
 - add-ons
+- Instagram link
