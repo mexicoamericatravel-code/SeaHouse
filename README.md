@@ -1,18 +1,18 @@
-# Casa Brisa del Mar - Next Level
+# Casa Brisa del Mar - V7 multipage
 
-This version adds stronger trust, comparison, planning, and conversion sections while waiting for final property data.
+Added real multi-page structure:
+- Home
+- Rooms
+- Experiences
+- Itineraries
+- Booking
 
-## 10 upgrades included
-1. Mobile menu
-2. Trust info strip
-3. Room comparison table
-4. Why choose us section
-5. Trip idea / itinerary section
-6. Policies section
-7. Host story section
-8. FAQ accordion
-9. Booking perks block
-10. Cleaner direct-booking flow
+## Highlights
+- cleaner tourist-planning utility
+- detailed experience cards
+- itinerary suggestions by activity level
+- still lightweight and easy to scan
+- React Router navigation
 
 ## Run
 npm install
@@ -24,3 +24,7 @@ npm run build
 ## Netlify
 Build command: npm run build
 Publish directory: dist
+
+## Recommended Netlify redirect
+For SPA routes, add a `_redirects` file later if needed with:
+/* /index.html 200
